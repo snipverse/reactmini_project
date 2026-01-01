@@ -1,0 +1,75 @@
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+h1,
+h2 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f46e5;
+}
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+.dashboard {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 24px;
+}
+
+.dashboard button {
+  margin-bottom: 16px;
+}
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.accordion h3 {
+  padding: 10px;
+  cursor: pointer;
+  background: #f1f1f1;
+}
+
+.accordion p {
+  padding: 10px;
+  background: #fafafa;
+}
+.search {
+  margin-bottom: 20px;
+}
+
+.search input {
+  width: 100%;
+}
